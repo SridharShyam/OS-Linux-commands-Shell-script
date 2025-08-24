@@ -737,7 +737,8 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-<img width="422" height="83" alt="image" src="https://github.com/user-attachments/assets/7006051d-b8b1-4a37-a778-f26d330f0ebb" />
+<img width="278" height="71" alt="image" src="https://github.com/user-attachments/assets/1cad3acb-fa23-462b-9b3e-ad73d69616f7" />
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -753,6 +754,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="338" height="70" alt="image" src="https://github.com/user-attachments/assets/4e3d1987-88eb-4744-81b0-92822f18a619" />
 
 # using the case command
 cat > casecheck.sh 
@@ -772,7 +774,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+<img width="278" height="71" alt="image" src="https://github.com/user-attachments/assets/ef443ca2-5d98-4949-9863-da1f385760e9" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -787,8 +791,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
- 
+## OUTPUT 
+ <img width="273" height="218" alt="image" src="https://github.com/user-attachments/assets/ad5156af-8f86-4702-9bdf-0b1fd0d617d7" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -815,7 +820,9 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+## OUTPUT
+<img width="331" height="182" alt="image" src="https://github.com/user-attachments/assets/87029f30-fbac-4642-8030-d29880e85c5e" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -864,6 +871,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="331" height="182" alt="image" src="https://github.com/user-attachments/assets/81a0d32e-2488-4687-ae7e-0135dd75ce8a" />
 
 cat forinfile.sh 
 ```bash
@@ -886,7 +894,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+<img width="303" height="163" alt="image" src="https://github.com/user-attachments/assets/52d02a94-6a77-4afa-812f-8362a0cca391" />
 
 cat forctype.sh 
 ```bash
@@ -900,6 +908,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="228" height="132" alt="image" src="https://github.com/user-attachments/assets/a80b88ca-046e-4a88-9206-0bdc8e86d100" />
+
 
 cat forctype1.sh 
 ```bash
@@ -913,6 +923,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="232" height="128" alt="image" src="https://github.com/user-attachments/assets/f8073d36-9148-4714-9f6f-34712a3ed561" />
 
 cat fornested1.sh 
 ```bash
@@ -948,6 +959,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="588" height="98" alt="image" src="https://github.com/user-attachments/assets/192103f9-24f4-4202-ae8a-1e00f3933d55" />
 
 $ chmod 755 forbreak.sh
  
@@ -973,7 +985,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+<img width="603" height="132" alt="image" src="https://github.com/user-attachments/assets/2a681b8e-3a23-49e0-a584-49e0677df49a" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -987,22 +1000,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="336" height="91" alt="image" src="https://github.com/user-attachments/assets/f30b0463-268f-4957-9ba5-f61a276e476c" />
 
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1020,10 +1019,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
-
- 
- ./funcex.sh 1 2
+<img width="241" height="67" alt="image" src="https://github.com/user-attachments/assets/8570ca46-377f-499b-9e8d-e58419e7b34b" />
 
  
 cat argshift.sh
@@ -1037,9 +1033,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
- cat argshift1.sh
+<img width="235" height="95" alt="image" src="https://github.com/user-attachments/assets/c21618dd-1371-4a31-bdd4-e6b9d66906b5" />
+
 ```bash
  #/bin/bash 
  # store arguments in a special array 
@@ -1126,7 +1121,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+<img width="267" height="90" alt="image" src="https://github.com/user-attachments/assets/03398aab-2025-43c9-b392-cd65077c9d06" />
 
 # RESULT:
 The Commands are executed successfully.
