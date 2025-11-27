@@ -1,5 +1,6 @@
 # Exp: 1 - Linux commands-Shell scripting
-
+#### Name: SHYAM S
+#### Reg.No: 21223240156
 # AIM:
 To practice Linux Commands and Shell Scripting
 
