@@ -1,7 +1,4 @@
-# OS-Linux-commands-Shell-scripting
-Operating systems Lab exercise
-# Linux commands-Shell scripting
-Linux commands-Shell scripting
+# Exp: 1 - Linux commands-Shell scripting
 
 # AIM:
 To practice Linux Commands and Shell Scripting
